@@ -107,6 +107,33 @@ $(window).scroll( function (){
 
 
 
+
+
+$('.b-partners-row').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  fade: false,
+  arrows: false,
+  dots: false,
+  autoplay: true,
+  infinite: true,
+  centerMode: true,
+  variableWidth: true
+});
+
+window.addEventListener("resize", function() {
+  if (window.innerWidth > 768) {
+    $('.b-partners-row').slick('unslick');
+    sliderIsLive = false;
+  }
+  else {
+    if (sliderIsLive) {
+      $('.b-partners-row').slick();
+      sliderIsLive = true;
+    }
+  }
+});
+
 });
 
 

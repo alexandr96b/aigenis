@@ -1,16 +1,18 @@
 @media (max-width: 1775px) {
 }
-@media (max-width: 1550px) {
-
+@media (max-width: 1700px) {
+	.b-logo{
+		margin: 0 150px 0 0;
+	}
 }
 @media (max-width: 1600px) {
 	.b-logo{
-		margin: 0 100px 0 0;
+		margin: 0 74px 0 0;
 	}
 }
 @media (max-width: 1450px) {
 	.b-logo{
-		margin: 0 50px 0 0;
+		margin: 0 30px 0 0;
 	}
 }
 @media (max-width: 1415px) {
@@ -31,7 +33,7 @@
 		display: block;
 	}
 	.b-logo{
-		margin: 0 100px 0 0;
+		margin: 0 40px 0 0;
 	}
 	.b-desc-item{
 		margin: 0 15px 0 0;
@@ -478,10 +480,8 @@
 		margin: 5px auto 0;
 	}
 	.b-main-right p{
-		font-size: 13px;
-	}
-	h2{
-		font-size: 20px;
+		letter-spacing: 0.5px;
+		font-size: 16px;
 	}
 	.b-info-item__top{
 		margin: 0 0 10px 0;
@@ -490,8 +490,8 @@
 		margin: 0 0 13px 0;
 	}
 	.b-info-item ul li{
-		font-size: 14px;
-		line-height: 19px;
+		font-size: 17px;
+		line-height: 23px;
 		margin: 0 0 14px 0;
 	}
 	.b-info-item__bottom{
@@ -513,10 +513,6 @@
 	}
 	.b-desc-row__top{
 		padding: 10px 40px 10px 10px;
-	}
-	.b-desc-row__top span{
-		font-size: 14px;
-		line-height: 19px;
 	}
 	.b-desc-row__top span:first-child{
 		margin: 0 5px 0 0;
@@ -563,7 +559,7 @@
         margin: 31px 0 61px 0;
 	}	
 	.b-title-two h2{
-		line-height: 22px;
+		line-height: 40px;
 		margin: 0;
 	}
 	.b-services .b-services-bottom {
@@ -573,7 +569,8 @@
 		padding: 30px 0 395px 0 !important;
 	}
 	.b-partners-left{
-		margin: 0 0 20px 0;
+		margin: 0 0 20px 15px;
+		display: flex;
 	}
 	.b-partners-left span{
 		font-size: 24px;
@@ -581,9 +578,11 @@
 	}
 	.b-partners-row__item{
 		width: 290px;
-		margin: 0 auto 15px !important;
+		margin: 0 30px 0 15px !important;
 	}
-
+	.b-partners-content{
+		padding: 0;
+	}
 	.b-footer-item{
 		margin: 0 0 40px 0;
 	}
@@ -608,7 +607,7 @@
 		width: auto;
 	}
 	.modal-dialog{
-		padding: 15px 10px;
+		padding: 0px;	
 	}
 	.b-modal-content{
 	    padding: 20px 15px;
@@ -623,9 +622,7 @@
 		top: -10px;
     	right: -7px;
 	}
-	.b-modal-row ul{
-		display: block;
-	}
+
 	.b-modal-bottom a{
 		font-size: 13px;
 	}
@@ -648,7 +645,7 @@
 	}
 	.b-desc-item{
 		width: auto;
-		margin: 0 40px 165px 40px !important;
+		margin: 0 40px 130px 40px !important;
 	}
 	.b-desc-bottom__right{
 		width: 366px;
@@ -675,8 +672,9 @@
 		display: none;
 	}	
 	.b-services{
-		background: url(../images/xs-img24.png) center top no-repeat;
+		background: url(../images/xs-img24.png) no-repeat;
 		background-size: cover;
+		background-position: center top -100px;
 	}
 	.b-services:before{
 		display: none;
@@ -692,10 +690,104 @@
 	}
 	.btn-up{
 		bottom: 50px;
+	}
+	.modal-close{
+		top: 10px;
+		right: 10px;
+		background: url(../images/close-xs.png) center no-repeat;
+	}		
+	.b-logo{
+		background: url(../images/logo_text_only.svg) center no-repeat;
+		width: 162px;
+		height: 26px;
+	}
+	.b-logo img{
+		display: none;
+	}
+	.b-main{
+	    background-position: left -53px top;
+	}	
+	.b-main-btn{
+		display: none;
+	}
+	.b-main-btn__xs{
+		margin: 20px auto 0;
+		display: block;
+	}
+	.b-info-item__top img{
+		width: 55px;
+	}
+	.b-title p{
+		font-size: 73px;
+		line-height: 69px;
+	}
+	.container {
+	    max-width: 600px;
+	}	
+	.b-info-item__bottom p {
+	    font-size: 16px;
+	}	
+	h2{
+		font-size: 36px;
+	}	
+	.b-title span {
+	    font-size: 17px;
+	    text-transform: none;
+	}	
+	.b-desc-row__top span{
+		font-size: 16px;
+		line-height: 22px;
+	}	
+	.b-desc-row__content__wrap{
+		margin: 5px 0;
+	}
+	.b-desc-item__content ul li:before{
+		top: 7px;
+	    left: -26px;
+	}
+	.b-desc-item__top p {
+	    font-size: 16px;
+	}	
+	.b-desc-item__top {
+	    padding: 0 0 0 99px;
+	}	
+	.b-desc-item__content ul li {
+	    font-size: 17px;
+	    line-height: 22px;
+	}	
+	.b-desc-item:last-child{
+		margin-bottom: 0 !important;
+	}
+	.b-desc-item__img{
+	    top: -137px;
+	    left: -60px;
+	}
+	.b-desc-item__wrap {
+	    padding: 0 43px;
 	}	
 }
 
 @media (max-width: 639px) {
+	.b-desc-item__content ul li {
+	    font-size: 14px;
+	    line-height: 17px;
+	}	
+	.b-desc-item__top {
+	    padding: 0 0 0 20px;
+	}	
+	.b-desc-row__top span{
+		font-size: 14px;
+		line-height: 19px;
+	}	
+	.b-title span {
+	    font-size: 14px;
+	}	
+	h2{
+		font-size: 20px;
+	}	
+	.container {
+	    max-width: 100%;
+	}	
 	.b-header-top{
 		flex-direction: column-reverse;
 	}
@@ -790,6 +882,19 @@
 	}	
 	.btn-up{
 		bottom: 20px;
+	}
+	.b-modal-row ul{
+		display: block;
+	}	
+	.b-header-top__left ul li a span{
+		display: inline-block;
+	}
+	.b-info-item ul li{
+		font-size: 14px;
+		line-height: 19px;	
+	}
+	.b-services{
+	    background-position: center top -426px;
 	}
 }
 @media (max-width: 510px){

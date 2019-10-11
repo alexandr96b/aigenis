@@ -403,7 +403,9 @@ textarea{
 }
 .b-logo{
 	display: block;
-	width: 160px;	
+	width: 190px;	
+	background: url(../images/top_logo.svg) center no-repeat;
+	height: 60px;
 	margin: 0 250px 0 0;
 }
 .b-nav{
@@ -1381,6 +1383,7 @@ h2{
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 600;
+	letter-spacing: 1px;
 }
 .b-team-slider__item__img__text span{
 	display: block;
@@ -1426,12 +1429,11 @@ h2{
 .b-team-slider__item__text ul li:before{
 	position: relative;
 	position: absolute;
-	top: 50%;
+	top: 11px;
 	left: -20px;
 	content: "";
 	width: 6px;
 	height: 6px;
-	margin: -2.5px 0 0 0;
 	background: #000000;
 	border-radius: 100%;
 }
@@ -2120,5 +2122,8 @@ h2{
 	font-style: normal;
 }
 .b-services-img2{
+	display: none;
+}
+.b-main-btn__xs{
 	display: none;
 }
