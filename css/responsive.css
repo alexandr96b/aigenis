@@ -29,9 +29,6 @@
 	.b-title-two{
 		margin: 0 0 100px 0;
 	}
-	.b-partners-content{
-		display: block;
-	}
 	.b-logo{
 		margin: 0 40px 0 0;
 	}
@@ -130,6 +127,12 @@
 	.b-desc-item{
 		width: 370px;
 		margin: 0 10px 137px 10px;
+	}
+	.b-partners-content{
+		display: block;
+	}
+	.b-partners-left{
+		display: flex;
 	}
 }	
 @media (max-width: 991px){	
