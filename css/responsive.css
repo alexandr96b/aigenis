@@ -217,6 +217,15 @@
 		opacity: 0;
 		transition: 0.3s;		
 	}
+	.xs-close{
+		position: absolute;
+		top: 0;
+		left: 100%;
+		content: "";
+		width: 60px;
+		height: 60px;
+		background: url(../images/close-ico2.png) center no-repeat #12243e;
+	}
 	.b-header-content__wrap.active{
 		left: 0;
 		z-index: 100;
@@ -471,7 +480,8 @@
 		display: block;
 	}
 	.b-header-content__wrap{
-		width: 272px;
+		width: 260px;
+		height: 100vh;
 	}
 	.b-header-xs__item{
 		font-size: 11px;
@@ -566,11 +576,9 @@
 		margin: 0;
 	}
 	.b-services .b-services-bottom {
-	    margin: -67px 0 0 0px;
+	    margin: 0px 0 0 0px;
 	}
-	.b-services{
-		padding: 30px 0 395px 0 !important;
-	}
+
 	.b-partners-left{
 		margin: 0 0 20px 15px;
 		display: flex;
@@ -672,15 +680,21 @@
 		display: none;
 	}
 	.b-services-img2{
-		display: none;
+		display: block;
+		width: 100%;
 	}	
 	.b-services{
-		background: url(../images/xs-img24.png) no-repeat;
-		background-size: cover;
-		background-position: center top -100px;
+/* 		background: url(../images/xs-img24.png) no-repeat;
+background-size: cover;
+background-position: center top -100px; */
 	}
+	.b-services{
+		padding: 30px 0 0px 0 !important;
+	    background: url(../images/serv-bg.png) center top no-repeat;
+	    background-size: cover;		
+	}	
 	.b-services:before{
-		display: none;
+ 		display: none;
 	}
 	.b-team-slider__item__img__text{
 		position: absolute;
@@ -767,6 +781,9 @@
 	}
 	.b-desc-item__wrap {
 	    padding: 0 43px;
+	}
+	.b-services-row > .row > div{
+		width: 50%;
 	}	
 }
 
@@ -802,10 +819,10 @@
 		text-align: center;
 	}
 	.b-header-top__right ul{
-		justify-content: center;
+		justify-content: flex-end;
 	}
 	.b-header-top__right ul li a{
-		padding: 10px 0;
+		padding: 21px 0;
 		font-size: 17px;
 		line-height: 19px;
 	}
@@ -896,8 +913,25 @@
 		font-size: 14px;
 		line-height: 19px;	
 	}
-	.b-services{
-	    background-position: center top -426px;
+	.b-nav ul li a{
+		font-size: 14px;
+		line-height: 16px;
+	}
+	.b-nav ul li a:after{
+		width: 9px;
+		height: 16px;
+		background-size: cover;
+	}
+	.b-header-ico{
+		width: 18px;
+	}
+	.b-services-item p{
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.b-team-slider__item__text ul li{
+		font-size: 14px;
+		line-height: 20px;
 	}
 }
 @media (max-width: 510px){

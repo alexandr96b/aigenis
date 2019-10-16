@@ -1170,6 +1170,9 @@ h2{
 .b-services .b-title h2 , .b-services .b-title span{
 	color: #ffffff;
 }
+.b-services .b-title h2{
+	margin: 0 0 10px 0;
+}
 .b-services .b-title span{
 	line-height: 25px;
 	text-transform: none;

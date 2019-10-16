@@ -73,7 +73,7 @@ function init2() {
 
 $('.menu-icon').click(function(){
   $('.b-header-content__wrap').toggleClass('active');
-  $('.menu-icon').toggleClass('active');
+
 }); 
 
 $(document).on('click', function(event) {
@@ -84,6 +84,10 @@ $(document).on('click', function(event) {
   event.stopPropagation();
 });
 
+$('.xs-close').click(function(){
+  $('.b-header-content__wrap').toggleClass('active');
+  $('.xs-close').toggleClass('active');
+}); 
 
 $(".btn-up").click(function(){
   $('html, body').animate({scrollTop:0}, 'slow');
