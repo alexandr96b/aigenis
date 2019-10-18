@@ -72,20 +72,20 @@ function init2() {
 }
 
 $('.menu-icon').click(function(){
-  $('.b-header-content__wrap').toggleClass('active');
+  $('.b-header-content__wrap__wrapper').toggleClass('active');
 
 }); 
 
 $(document).on('click', function(event) {
   if (!$(event.target).closest(".menu-icon , .b-header-content__wrap").length) {
-    $('.b-header-content__wrap').removeClass('active');
+    $('.b-header-content__wrap__wrapper').removeClass('active');
     $('.menu-icon').removeClass('active');
   }
   event.stopPropagation();
 });
 
 $('.xs-close').click(function(){
-  $('.b-header-content__wrap').toggleClass('active');
+  $('.b-header-content__wrap__wrapper').toggleClass('active');
   $('.xs-close').toggleClass('active');
 }); 
 
