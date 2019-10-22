@@ -110,39 +110,51 @@ $(window).scroll( function (){
 
 
 
+  $('.b-partners-row').slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    fade: false,
+    arrows: false,
+    dots: false,
+    autoplay: true,
+    infinite: true,
+    variableWidth: false,
+    responsive: [
+      {
+        breakpoint: 1366,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 1025,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 770,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 577,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });
 
 
-function moveMenu2(){
-  if ($(window).width() < 768) {
-         $(function(){ 
-            $('.b-partners-row').slick({
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              fade: false,
-              arrows: false,
-              dots: false,
-              autoplay: true,
-              infinite: true,
-              centerMode: true,
-              variableWidth: true
-            });
-
-        })            
-  } else{
-    $('.b-partners-row').slick("unslick");
-         $(function(){ 
-
-
-
-           
-     })        
-  }
-}
-moveMenu2();
-
-$(window).resize(function(){
-    moveMenu2();
-});
 
 
 });
