@@ -8,6 +8,7 @@ $('.b-services-slider').slick({
   arrows: false,
   dots: true,
   autoplay: true,
+  adaptiveHeight: true,
   infinite: true,
   variableWidth: false
 });

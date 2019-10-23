@@ -812,9 +812,14 @@ background-position: center top -100px; */
 	.b-team-slider__item__text ul li{
 		font-size: 14px;
 	}
+	.b-desc-item__img{
+		top: -144px;
+		left: -77px;
+	}	
 }
 
 @media (max-width: 639px) {
+
 	.b-desc-item__content ul li {
 	    font-size: 14px;
 	    line-height: 17px;
@@ -960,6 +965,7 @@ background-position: center top -100px; */
 		font-size: 14px;
 		line-height: 20px;
 	}
+
 }
 @media (max-width: 550px){
 	.b-services .b-services-bottom {

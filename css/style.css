@@ -725,6 +725,7 @@ h2{
 .b-info-item__ico{
 	flex-shrink: 0;
 	margin: 0 20px 0 0;
+	width: 31px;
 }
 .b-info-item__bottom p{
 	color: #06c7bb;
