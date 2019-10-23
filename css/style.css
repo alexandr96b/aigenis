@@ -772,6 +772,8 @@ h2{
 }
 .b-desc-left img{
 	margin: 0 0 30px 0;
+	width: 60px;
+	opacity: 0.5;
 }
 .b-desc-left p{
 	display: block;

@@ -271,13 +271,20 @@
 		border-bottom: 1px solid #ffffff;
 	}
 	.b-nav ul li a:after{
-		background: url(../images/xs-arrow.png);
+		background: url(../images/menu_arrow.svg) center no-repeat;
 		background-size: cover;
 		/* 		width: 14px;
 		height: 23px; */
 		width: 11px;
 		height: 20px;
 		margin: 0;
+	}
+	.b-nav ul li a:hover:after{
+		background: url(../images/menu_arrow2.svg) center no-repeat;
+		background-size: cover;
+	}
+	.b-nav ul li a{
+		transition: 0s;
 	}
 	
 	.b-header-content__right ul{
