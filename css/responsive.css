@@ -506,6 +506,9 @@ left: -32px; */
  		-moz-box-sizing: border-box;
  		box-sizing: border-box;
  	}
+ 	.xs-close{
+ 		display: block;
+ 	}
 }	
 
 @media (max-width: 767px) {

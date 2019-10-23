@@ -401,6 +401,9 @@ textarea{
 	justify-content: space-between;
 	align-items: center;
 }
+.xs-close{
+	display: none;
+}
 .b-logo{
 	display: block;
 	width: 190px;	
@@ -806,6 +809,9 @@ h2{
 	align-items: flex-start;
 	transition: 0.3s;
 	cursor: pointer;
+}
+.b-desc-row__top.blank{
+	cursor: inherit;
 }
 .b-desc-row__top.blank:after{
 	display: none;
