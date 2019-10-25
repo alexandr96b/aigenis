@@ -383,9 +383,13 @@
 	.b-desc-item__img {
 	    position: absolute;
 	    top: -164px;
+        left: -33px;
 /* 	    top: -177px;
 left: -32px; */
 	}	
+.b-desc-item__top {
+    padding: 0 0 0 42px;
+}	
 	.b-findings-content{
 		display: block;
 	}
