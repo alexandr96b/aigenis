@@ -513,6 +513,9 @@ left: -32px; */
  	.xs-close{
  		display: block;
  	}
+ 	body.active{
+		overflow: hidden;
+ 	}
 }	
 
 @media (max-width: 767px) {
